@@ -18,7 +18,7 @@ body {
   /* border: 1px solid; */
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h1 {
@@ -33,7 +33,11 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+figure {
+    margin: 0;
 }
 
 input,
@@ -44,6 +48,11 @@ button {
   border: 1px solid var(--blue);
 }
 
+footer p {
+    font-size: 14px;
+    color: var(--gray);
+}
+
 ::placeholder {
   color: var(--gray);
   opacity: 0.4;
@@ -52,6 +61,7 @@ button {
 button {
   background-color: var(--blue);
   color: white;
+  box-shadow: 0 7px 20px var(--pale-blue);
 }
 
 .brand__name {
@@ -60,7 +70,7 @@ button {
 
 form {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 10px;
 }
 
@@ -87,3 +97,5 @@ form {
   padding: 7px;
   border-radius: 50%;
 }
+
+
