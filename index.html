@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./index.css" />
 
+    <script src="./index.js" defer></script>
+
     <title>Frontend Mentor | Ping coming soon page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -35,8 +37,12 @@
         <h1><span class="text-grey thin-text">We are launching </span>soon!</h1>
         <p>Subscribe and get notified</p>
 
-        <form>
-          <input type="email" placeholder="Your email address..." />
+        <form novalidate>
+          <div class="email__input">
+            <input type="email" placeholder="Your email address..." required />
+            <div class="error"></div>
+          </div>
+
           <button>Notify Me</button>
         </form>
       </section>
