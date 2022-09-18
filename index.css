@@ -62,8 +62,12 @@ button {
   border: 1px solid var(--blue);
 }
 
-input {
+.email__input {
   flex: 3;
+}
+
+input {
+  width: 100%;
 }
 
 button {
@@ -119,7 +123,7 @@ form {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .text-grey {
@@ -150,6 +154,24 @@ form {
   border-radius: 50%;
 }
 
+button:hover {
+  opacity: 0.9;
+}
+
+input.invalid {
+  border: 1px solid var(--light-red);
+  color: var(--light-red);
+}
+
+.error {
+  width: 100%;
+  color: var(--light-red);
+}
+
+.error.active {
+margin: 10px 0;
+}
+
 @media only screen and (min-width: 900px) {
   form {
     -webkit-box-orient: horizontal;
@@ -159,5 +181,6 @@ form {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    align-items: flex-start;
   }
 }
