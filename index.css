@@ -34,7 +34,7 @@ h1 {
 }
 
 main {
-  max-width: 375px;
+  max-width: 700px;
   padding: 0 15px;
   text-align: center;
   margin: 0 auto;
@@ -60,6 +60,14 @@ button {
   padding: 10px 20px;
   outline: none;
   border: 1px solid var(--blue);
+}
+
+input {
+  flex: 3;
+}
+
+button {
+  flex: 1;
 }
 
 footer p {
