@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
   const isValid = emailRegExp.test(email.value);
   if (!isValid) {
     email.className = "invalid";
-    error.textContent = "Please provide a valid email address";
+    error.textContent = "Whoops! It looks like you forgot to add your email";
     error.classList.add("active");
     email.placeholder = "example@email.com";
   } else {
