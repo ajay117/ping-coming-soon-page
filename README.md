@@ -63,7 +63,7 @@ In future, I may want to work more and learn more about client side validations.
 
 - Website - [Ajay KC](https://github.com/ajay117)
 - Frontend Mentor - [@ajay117](https://www.frontendmentor.io/profile/ajay117)
-- Twitter - [@Ajay49903701](https://www.twitter.com/Ajay49903701)
+- Twitter - [@AjayInTech](https://www.twitter.com/AjayInTech)
 
 ## Acknowledgments
 
